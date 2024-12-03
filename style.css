@@ -108,17 +108,17 @@ p {
     font-size: 5.8em;
     margin-bottom: 20px;
     color: #ffffff;
-    text-align: center; /* Center the heading */
-    margin-top: 20px; /* Add spacing from the top */
+    text-align: center; 
+    margin-top: 20px;
 }
 
 #about .about-content {
     display: flex;
     align-items: center;
-    justify-content: space-around; /* Adjust spacing evenly */
+    justify-content: space-around; 
     flex-wrap: wrap;
     gap: 30px;
-    text-align: center; /* Ensures text in smaller screens is centered */
+    text-align: center; 
 }
 
 #about p.about-description {
@@ -126,9 +126,9 @@ p {
     font-size: 1.2em;
     font-style: italic;
     color: #ffffff;
-    margin: 20px auto; /* Centers the paragraph horizontally */
-    text-align: center; /* Centers the text */
-    max-width: 800px; /* Ensures the text doesn't stretch too wide */
+    margin: 20px auto; 
+    text-align: center; 
+    max-width: 800px; 
 }
 
 
@@ -140,7 +140,6 @@ p {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.);
 }
 
-/* Portfolio Section */
 .portfolio-gallery {
     display: flex;
     justify-content: space-between;
@@ -177,7 +176,6 @@ p {
     padding: 15px;
 }
 
-/* Modal Styles */
 .modal {
     display: none;
     position: fixed;
@@ -217,7 +215,6 @@ p {
     color: #ff0000;
 }
 
-/* Form Styles */
 form {
     display: flex;
     flex-direction: column;
@@ -273,7 +270,6 @@ form button:hover {
     background-color: #cc0000;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .portfolio-gallery {
         flex-direction: column;
@@ -335,12 +331,12 @@ form button:hover {
 }
 
 .modal video {
-    max-width: 90%;  /* Adjust the max-width as needed */
-    max-height: 80vh;  /* Make sure it fits within 80% of the viewport height */
+    max-width: 90%;  
+    max-height: 80vh;  
     margin: auto;
     border-radius: 8px;
 }
-/* Software Icons Section */
+
 .software-label {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -358,7 +354,7 @@ form button:hover {
 }
 
 .software-icon {
-    width: 40px; /* Adjust size as needed */
+    width: 40px; 
     height: auto;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
@@ -368,7 +364,7 @@ form button:hover {
 .software-icon:hover {
     transform: scale(1.1);
 }
-/* Social Media Section */
+
 #social-media {
     background-color: #181717;
     padding: 40px 0;
@@ -385,13 +381,14 @@ form button:hover {
 
 .social-icons {
     display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin-top: 20px;
+    justify-content: center; 
+    align-items: center;    
+    gap: 25px;              
+    flex-wrap: wrap;        
 }
 
 .social-icon {
-    width: 40px;  /* Adjust the size of the icons */
+    width: 40px;            
     height: 40px;
     transition: transform 0.3s ease;
 }
@@ -404,25 +401,17 @@ form button:hover {
 }
 
 .social-icon:hover {
-    transform: scale(1.2);  /* Enlarge icon on hover */
-}
-
-/* Responsive Design for Social Media Icons */
-@media (max-width: 768px) {
-    .social-icons {
-        gap: 20px;
-    }
+    transform: scale(1.2);  
 }
 
 @media (max-width: 480px) {
     .social-icons {
-        flex-direction: column;
-        align-items: center;
+        gap: 15px;        
     }
 
     .social-icon {
-        margin-bottom: 15px;
+        width: 35px;        
+        height: 35px;
     }
 }
-
 
